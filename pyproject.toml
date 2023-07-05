@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "personalise-gpt"
+version = "0.1.0"
+description = ""
+authors = ["danielsteman <daniel-steman@live.nl>"]
+readme = "README.md"
+packages = [{include = "personalise_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
